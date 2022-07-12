@@ -1,0 +1,23 @@
+.container img {
+  width: 100%;
+  filter: contrast(0.8);
+}
+.container {
+  position: relative;
+}
+.dateContainer {
+  position: absolute;
+  margin: -6rem 1rem;
+  color: white;
+  line-height: 19px;
+}
+@media (max-width: 460px) {
+  .dateContainer {
+    margin: -5rem 2rem;
+  }
+}
+@media (max-width: 362px) {
+  .dateContainer {
+    margin: -4rem 2rem;
+  }
+}

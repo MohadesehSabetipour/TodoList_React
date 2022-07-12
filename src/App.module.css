@@ -1,0 +1,21 @@
+.App {
+  background-color: #e5e7eb;
+  width: 450px;
+  height: 40rem;
+  margin: 0 auto;
+  border: 0 solid #e5e7eb;
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width: 460px) {
+  .App {
+    width: 350px;
+    height: 35rem;
+  }
+}
+@media (max-width: 362px) {
+  .App {
+    width: 250px;
+    height: 33rem;
+  }
+}

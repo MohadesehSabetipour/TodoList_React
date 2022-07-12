@@ -1,0 +1,47 @@
+.listContainer {
+  margin: 0px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 3px 8px 14px;
+  border-bottom: 1px solid #b1b1b6;
+}
+.trash button {
+  border: none;
+  color: #b1b1b6;
+  background-color: #e5e7eb;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.taskContainer input {
+  height: 16px;
+  width: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: white;
+  cursor: pointer;
+}
+
+.taskContainer span {
+  padding-left: 9px;
+  font-size: 15px;
+  word-break: break-all;
+}
+.trash button:hover {
+  color: rgb(202, 75, 124);
+  transition: all 0.2s ease;
+}
+.taskContainer input:checked {
+  border-color: rgb(202, 75, 124);
+  background-color: rgb(202, 75, 124);
+}
+.completedTask {
+  color: rgb(202, 75, 124);
+  text-decoration: line-through;
+}

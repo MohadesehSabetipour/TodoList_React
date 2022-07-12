@@ -1,0 +1,82 @@
+.inputContainer {
+  color: #b1b1b6;
+  margin: 0px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 25px;
+  font-size: 20px;
+  position: relative;
+}
+
+.input {
+  border: none;
+  padding: 8px 8px 8px 14px;
+  background-color: #e5e7eb;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  width: 400px;
+  border-bottom: 2px solid #b1b1b6;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgb(202, 75, 124);
+}
+.inputImg {
+  position: absolute;
+  font-size: 20px;
+}
+.inputImg:hover {
+  color: rgb(202, 75, 124);
+  transition: all 0.2s ease;
+}
+.listsText {
+  color: #9696a3;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 108px;
+}
+
+.footer {
+  color: #9696a3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d1d5db;
+  border-top-width: 1px;
+  border: 0 solid #1d2942;
+  padding: 10px 0px;
+}
+.listsContainer {
+  height: 384px;
+}
+.showScrollBar {
+  overflow-y: scroll;
+  height: 384px;
+}
+
+@media (max-width: 460px) {
+  .listsContainer {
+    height: 374px;
+  }
+  .showScrollBar {
+    overflow-y: scroll;
+    height: 374px;
+  }
+  .listsText {
+    padding-top: 88px;
+  }
+}
+@media (max-width: 362px) {
+  .listsContainer {
+    height: 364px;
+  }
+  .showScrollBar {
+    overflow-y: scroll;
+    height: 364px;
+  }
+  .listsText {
+    padding-top: 78px;
+  }
+}
